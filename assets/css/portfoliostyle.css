@@ -1,0 +1,59 @@
+
+.col{
+
+    /* layout */
+    width:30%;
+    height:30%;
+    float: left;
+    margin:30px;
+    position:relative;
+
+}
+
+.col:hover{
+
+    /* layout */    
+    opacity: 0.8;
+
+}
+
+/* CONTENT FORMATTING */
+
+.title{
+
+    /* layout */    
+    border-bottom:3px solid #dddddd;
+    /* font */
+    color:#4aaaa5;
+
+}
+  
+  
+.content{
+
+    /* layout */ 
+    position:relative;
+    top:50px;
+    height:1000px;
+    width:960px;
+    margin: 100px auto 100px auto;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    background-color: #ffffff;
+
+}
+
+.banner{
+
+    /* layout */
+    position:absolute;
+    bottom:20px;
+    background-color:#4aaaa5;
+    width:300px;
+    /* font */  
+    font-size:10px;
+    color:#ffffff;
+    text-align: center; 
+    
+}
+  

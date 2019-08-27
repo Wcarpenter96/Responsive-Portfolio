@@ -1,0 +1,141 @@
+/* GENERAL FORMATTING */
+
+body{
+
+  /* layout */
+  background-image: url("../images/papyrus.png");
+}
+
+h1{
+
+  /* font */
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p{
+
+  /* layout */
+  margin:20px;
+  /* font */
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size:20px;
+  line-height: 1.5;
+  color: #777777;
+  
+}
+
+/* NAVBAR FORMATTING */
+
+ul {
+
+  /* layout */
+  position:fixed;
+  top:0;
+  right:0;
+  height:90px;
+  width: 100%;
+  margin:0;
+  border-bottom: 3px solid #cccccc;
+  padding:10px 350px 0 0;
+  background-color: #ffffff;
+  /* font */  
+  list-style-type: none;
+}
+  
+li {
+
+  /* layout */
+  display: block;
+  padding: 30px 10px;
+  float: right;
+  /* font */
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #777777;
+
+}
+
+
+
+a{
+
+  /* font */ 
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #777777;
+
+}
+
+a:hover{
+
+  /* font */
+  color: #888888;
+
+}
+
+.logo{
+
+  /* layout */
+  position:absolute;
+  top:-160px;
+  left:0;
+  height: 80px;
+  background-color:#4aaaa5;
+  padding:15px 20px;
+  /* font */  
+  text-align: center;
+  color: white;
+
+}
+
+/* FOOTER FORMATTING */
+
+.footer{
+
+  /* layout */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height:100px;
+  width:100%;
+  border-top: 15px solid #4aaaa5; 
+  background-color:#666666;
+  /* font */
+  text-align: center;
+  color: white;
+
+}
+
+.footertext{
+  
+  /* layout */
+  padding-top: 50px;
+  /* font */
+  font-size: 12px;
+  color: #ddd;
+
+}
+
+@media screen and (max-width: 980px){
+
+  ul{
+    padding: 10px 0 0 0; 
+  }
+
+  a{
+    font-size: 15px;
+  }
+
+  li{
+    font-size: 15px;
+  }
+    
+  p{
+    font-size: 15px;
+  }
+
+}
