@@ -56,4 +56,58 @@
     text-align: center; 
     
 }
+
+@media screen and (max-width: 980px){
   
+    .content{
+  
+      width:600px;
+      height:800px;
+      margin: 100px 50px;
+        
+    }
+    img{
+        display:inline-block;
+        float:none;
+        width:120%;
+        height:auto;
+      }
+
+    .banner{
+        
+    /* layout */
+    position:absolute;
+    bottom:20px;
+    background-color:#4aaaa5;
+    width:120%;
+    /* font */  
+    font-size:8px;
+    color:#ffffff;
+    text-align: center; 
+  }
+}
+
+  @media screen and (max-width: 640px){
+
+    .content{
+      width:550px;
+      height:1800px;
+      margin: 120px auto;
+    }
+  
+    img{
+      width:100%;
+    }
+
+    .col{
+        width:80%;
+        z-index:0;
+    }
+
+    .banner{
+        width:100%;
+    }
+
+  
+  }
+    
