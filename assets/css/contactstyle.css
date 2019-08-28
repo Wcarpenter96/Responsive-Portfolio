@@ -118,4 +118,46 @@ textarea:hover{
   background-color: #ffffff;
   
 }
+
+@media screen and (max-width: 980px){
   
+  .content{
+
+    width:600px;
+    height:500px;
+    margin: 100px 50px;
+      
+  }
+
+  label{
+    font-size:15px;
+  }
+
+  input{
+    font-size:14px;
+    padding:0px;
+  }
+
+  form{
+      width:90%;  
+  }
+
+  textarea{
+    height:80px;
+  }
+}
+
+@media screen and (max-width: 980px){
+  
+  .content{
+
+    width:550px;
+    height:600px;
+    margin: 125px auto;
+   
+  }
+  textarea{
+    height:200px;
+  }
+}
+
